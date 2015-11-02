@@ -27,10 +27,11 @@ form and print them to the screen.
 
 ####Step 2: controllers again
 Edits to "app/controllers/items_controller.rb"
+
 1. make a new controller to handle all of the things you'll want to do with 
    your todo list items:
 
-  $ bin/rails generate controller items
+   $ bin/rails generate controller items
   
 2. define a "new" action method within your controller so that your 
    controller can handle url requests for visiting home_page/items/new

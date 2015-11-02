@@ -51,8 +51,9 @@ and view all of our previous todo items at once.
    all of our current items
 
 ####Step 5. add links to get around
-   Edits to:  
-   app/views/welcome/index.html.erb  
-   app/views/items/index.html.erb  
-   app/views/items/new.html.erb  
-   app/views/items/show.html.erb  
+   
+Edits to:  
+  *app/views/welcome/index.html.erb  
+  *app/views/items/index.html.erb  
+  *app/views/items/new.html.erb  
+  *app/views/items/show.html.erb  
