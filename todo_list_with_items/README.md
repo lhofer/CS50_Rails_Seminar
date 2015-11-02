@@ -6,26 +6,32 @@ In this section we will learn to submit new todo items through an online
 form and print them to the screen.
 
 ####Step 1: resources
-Edits to "config/routes.rb"
+
+   Edits to "config/routes.rb"
+
 1. for every todo list item we'll want to be able to perform a variety of 
    actions including creating new items, editing items, deleting items, 
    showing all items etc. Rails has a convenient way of packaging up the
    most common of these actions and relating them all to a single 
    "resource" in this case, items.
+
 2. For this section, we've made edits to "config routes" again in order to tell
    rails to make a bunch of new paths that will all relate to a specific 
    resource, in this case our todo list items.
+
 3. excecute the following in the terminal inordert o see what all those new 
    routes are and what controller actions rails is expecting we'll have to 
    handle all this new information:
+
    $ rake routes
 
 ####Step 2: controllers again
 Edits to "app/controllers/items_controller.rb"
 1. make a new controller to handle all of the things you'll want to do with 
    your todo list items:
-   $ bin/rails generate controller items
 
+  $ bin/rails generate controller items
+  
 2. define a "new" action method within your controller so that your 
    controller can handle url requests for visiting home_page/items/new
 

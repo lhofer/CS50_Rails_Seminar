@@ -8,7 +8,7 @@ welcome visitors to the home page
 ####Step 1: generating the structure
 
    $ rails new project_name
-   
+
 ####Step 2: starting the server in your new project folder
 1. if you are developing outside of the IDE on your own laptop
 
@@ -22,7 +22,7 @@ welcome visitors to the home page
 
 ####Step 3: controllers
 
-   Edits to "config/routes.rb" (creates this file here as well)  
+   Edits to "config/routes.rb" (creates this file here as well)
    
 1. generate a controller to tell your app what to do if someone tries to 
    visit the home page. this generates a route to the index page for your 
@@ -37,7 +37,9 @@ welcome visitors to the home page
    url the app should show them the index page of the welcome controller.
 
 ####Step 4: views
+
    Edits to "app/views/welcome/index.html.erb" (creates this file here as well)
+   
 1. greet the people who come visit your page! your app is set up to direct
    people to the index file of the welcome controller if they visit your page, 
    so now we have to edit the index file so its not completely blank.
