@@ -8,7 +8,7 @@ welcome visitors to the home page
 ####Step 1: generating the structure
 
    $ rails new project_name
-
+   
 ####Step 2: starting the server in your new project folder
 1. if you are developing outside of the IDE on your own laptop
 
@@ -21,7 +21,9 @@ welcome visitors to the home page
 3. then visit https://ide50-yourusername.cs50.io/ to see what's there by default
 
 ####Step 3: controllers
+
    Edits to "config/routes.rb" (creates this file here as well)
+
 1. generate a controller to tell your app what to do if someone tries to 
    visit the home page. this generates a route to the index page for your 
    welcome controller and a file to store the html that you want the visitor 
