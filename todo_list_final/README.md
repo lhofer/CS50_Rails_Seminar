@@ -1,6 +1,9 @@
 ##A Working Example With Rails
 ######Thanks to http://guides.rubyonrails.org/getting_started.html
-Look through and see a working app that can create, edit, update, and destroy (CRUD) items in a todo list
+
+####Goals
+Look through and see a working app that can create, edit, update, and destroy 
+(CRUD) items in a todo list
 
 *Changes from prior steps:*
 ####Step 1: edit
