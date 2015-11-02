@@ -1,0 +1,12 @@
+<p>
+  <strong>Todo:</strong>
+  <%= @item.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @item.notes %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back To Todo List', items_path %>

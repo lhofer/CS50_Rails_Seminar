@@ -1,0 +1,17 @@
+<h1>Listing Todo Items</h1>
+ 
+<%= link_to 'New Item', new_item_path %> 
+ 
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Notes</th>
+  </tr>
+ 
+  <% @items.each do |item| %>
+    <tr>
+      <td><%= item.title %></td>
+      <td><%= item.notes %></td>
+    </tr>
+  <% end %>
+</table>
