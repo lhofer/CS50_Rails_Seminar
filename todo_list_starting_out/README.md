@@ -8,6 +8,7 @@ welcome visitors to the home page
 ####Step 1: generating the framework
 
    $ rails new project_name
+   $ bundle install
 
 ####Step 2: starting the server in your new project folder
 1. if you are developing outside of the IDE on your own laptop
