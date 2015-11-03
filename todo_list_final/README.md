@@ -18,12 +18,16 @@ but haven't followed along creating a new project with the tutorial)
 
 *Changes from prior steps:*
 ####Step 1: edit
-  *Edits to app/controllers/items_controller.rb
-  *Edits to app/views/items/edit.html.erb (creates this file as well)
-  *Edits to app/views/items/index.html.erb
+  *Edits to app/controllers/items_controller.rb  
+  
+  *Edits to app/views/items/edit.html.erb (creates this file as well)  
+  
+  *Edits to app/views/items/index.html.erb  
 
 ####Step 2: destroy
-  *Edits to app/controllers/items_controller.rb
-  *Edits to app/views/items/index.html.erb
+
+  *Edits to app/controllers/items_controller.rb   
+  
+  *Edits to app/views/items/index.html.erb  
   
  
