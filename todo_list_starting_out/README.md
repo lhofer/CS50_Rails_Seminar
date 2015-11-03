@@ -1,11 +1,11 @@
-##Starting Out With Rails
+##Starting Out With Rails (Part 1 of 4)
 ######Thanks to http://guides.rubyonrails.org/getting_started.html
 
 ####Goals
 In this section we will make and run a new rails app that can 
 welcome visitors to the home page
 
-####Step 1: generating the structure
+####Step 1: generating the framework
 
    $ rails new project_name
 
@@ -22,12 +22,12 @@ welcome visitors to the home page
 
 ####Step 3: controllers
 
-   Edits to "config/routes.rb" (creates this file here as well)
+   Edits to "config/routes.rb"
    
 1. generate a controller to tell your app what to do if someone tries to 
    visit the home page. this generates a route to the index page for your 
-   welcome controller and a file to store the html that you want the visitor 
-   to see along with along with a few other files/folders related 
+   welcome controller and a folder to store all the html pages related to
+   welcoming the visitor, along with a few other files/folders related 
    to that controller.
 
    $ bin/rails generate controller welcome index
@@ -41,6 +41,6 @@ welcome visitors to the home page
    Edits to "app/views/welcome/index.html.erb" (creates this file here as well)
    
 1. greet the people who come visit your page! your app is set up to direct
-   people to the index file of the welcome controller if they visit your page, 
-   so now we have to edit the index file so its not completely blank.
+   people to the index.html.erb file of the welcome controller if they visit 
+   your page, so now we have to edit that file so its not completely blank.
 

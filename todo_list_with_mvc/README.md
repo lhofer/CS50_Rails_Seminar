@@ -1,4 +1,4 @@
-##Starting Out With Rails
+##Todo List With MVC (Part 3 of 4)
 ######Thanks to http://guides.rubyonrails.org/getting_started.html
 
 ####Goals
@@ -15,7 +15,7 @@ and view all of our previous todo items at once.
    $ bin/rails generate model Item title:string notes:text
 
 2. run a migration of your strucure into the database to officially 
-   create a new database with the specified structure.
+   create a new database table with the specified structure.
 
    $ bin/rake db:migrate
 
@@ -35,17 +35,17 @@ and view all of our previous todo items at once.
 
 ####Step 3: and now we want to show something again, back to views
 
-   Creates and edits app/views/items/show.html.erb
+   Edits to app/views/items/show.html.erb (creates this file here as well)
    
 1. we'll need to make some html to display our item
 
 ####Step 4: show all
 
    Edits to app/controllers/items_controller.rb  
-   Creates and Edits app/views/items/views/index.html.erb
+   Edits to app/views/items/views/index.html.erb (creates this file here as well)
    
 1. controller: add an "index" method to our items_controller show all of 
-   our new changes
+   the todo list items currently in the database
 
 2. views: add an app/views/items/index.html.erb page with the html to display
    all of our current items
