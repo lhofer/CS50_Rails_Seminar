@@ -1,11 +1,11 @@
-##Todo List With Items (Part 2 of 4)
-######Thanks to http://guides.rubyonrails.org/getting_started.html
+## Todo List With Items (Part 2 of 4)
+###### Thanks to http://guides.rubyonrails.org/getting_started.html
 
-####Goals
+#### Goals
 In this section we will learn to submit new todo items through an online 
 form and print them to the screen.
 
-####Step 1: resources
+#### Step 1: resources
 
    Edits to "config/routes.rb"
 
@@ -25,7 +25,7 @@ form and print them to the screen.
 
    $ rake routes
 
-####Step 2: controllers again
+#### Step 2: controllers again
 Edits to "app/controllers/items_controller.rb"
 
 1. make a new controller to handle all of the things you'll want to do with 
@@ -40,7 +40,7 @@ Edits to "app/controllers/items_controller.rb"
    creation of a new item through a POST request, in this case it just 
    prints the new item to the screen.
 
-####Step 3: you guessed it... views again
+#### Step 3: you guessed it... views again
 Edits to "app/views/items/new.html.erb" (creates this file here as well)
 1. we need to make a form for our new item resource so that people can 
    enter in the info about their new todo list item. notice we also have to
