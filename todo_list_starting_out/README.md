@@ -18,7 +18,7 @@ welcome visitors to the home page
 
 2. if you are developing in the IDE
 
-   ''$ rails server -b 0.0.0.0 -p 8080''
+   $ rails server -b 0.0.0.0 -p 8080
 
 3. then visit https://ide50-yourusername.cs50.io/ to see what's there by default
 
