@@ -23,8 +23,8 @@ listed above).
 (i.e. if you have git cloned this repository and want to see how it works 
 but haven't followed along creating a new project with the tutorial)
 
-   '$ bundle install'  
+   `$ bundle install`  
    
-   $ rake db:migrate  
+   `$ rake db:migrate  
    
    $ rails server -b 0.0.0.0 -p 8080
