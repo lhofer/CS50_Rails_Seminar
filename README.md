@@ -12,6 +12,10 @@ Thanks to http://guides.rubyonrails.org/getting_started.html, and for further
 instruction, please visit the ruby on rails documentation (including the URL
 listed above).
 
+## Video Recording
+
+Video recording is also available for viewing on YouTube: https://youtu.be/gTBCHu0btn8
+
 ## Included
 1. Todo List Starting Out (setting up the framework)
 2. Todo List With Items (generating resources)
