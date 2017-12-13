@@ -23,7 +23,7 @@ form and print them to the screen.
    routes are and what controller actions rails is expecting we'll have to 
    handle all this new information:
 
-   $ rake routes
+   `$ rake routes`
 
 #### Step 2: controllers again
 Edits to "app/controllers/items_controller.rb"
@@ -31,7 +31,7 @@ Edits to "app/controllers/items_controller.rb"
 1. make a new controller to handle all of the things you'll want to do with 
    your todo list items:
 
-   $ bin/rails generate controller items
+   `$ bin/rails generate controller items`
   
 2. define a "new" action method within your controller so that your 
    controller can handle GET requests for visiting home_page/items/new
