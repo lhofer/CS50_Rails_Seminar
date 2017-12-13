@@ -25,6 +25,6 @@ but haven't followed along creating a new project with the tutorial)
 
    `$ bundle install`  
    
-   `$ rake db:migrate  
+   `$ rake db:migrate`  
    
-   $ rails server -b 0.0.0.0 -p 8080
+   `$ rails server -b 0.0.0.0 -p 8080`
