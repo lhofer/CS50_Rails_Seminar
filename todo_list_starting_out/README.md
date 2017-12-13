@@ -7,18 +7,18 @@ welcome visitors to the home page
 
 #### Step 1: generating the framework
 
-   $ rails new project_name  
+   `$ rails new project_name`  
    
-   $ bundle install
+   `$ bundle install`
 
 #### Step 2: starting the server in your new project folder
 1. if you are developing outside of the IDE on your own laptop
 
-   $ bin/rails server
+   `$ bin/rails server`
 
 2. if you are developing in the IDE
 
-   $ rails server -b 0.0.0.0 -p 8080
+   `$ rails server -b 0.0.0.0 -p 8080`
 
 3. then visit https://ide50-yourusername.cs50.io/ to see what's there by default
 
@@ -32,7 +32,7 @@ welcome visitors to the home page
    welcoming the visitor, along with a few other files/folders related 
    to that controller.
 
-   $ bin/rails generate controller welcome index
+   `$ bin/rails generate controller welcome index`
 
 2. Uncomment the line in "config/routes.rb" that says: root 'welcome#index'. 
    this will let your application know that if someone tries to go to the home 
