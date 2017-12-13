@@ -12,12 +12,12 @@ and view all of our previous todo items at once.
 1. generate a model, or a format for your resource to take once it gets
    inserted into a database
 
-   $ bin/rails generate model Item title:string notes:text
+   `$ bin/rails generate model Item title:string notes:text`
 
 2. run a migration of your strucure into the database to officially 
    create a new database table with the specified structure.
 
-   $ bin/rake db:migrate
+   `$ bin/rake db:migrate`
 
 #### Step 2: back to the controller
 
