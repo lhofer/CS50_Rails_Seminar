@@ -1,3 +1,7 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lhofer/CS50_Rails_Seminar) 
+
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/lhofer/CS50_Rails_Seminar) 
+
 ##Ruby on Rails Seminar
 ####Leila Hofer
 ####CS50 Seminars Fall 2015
